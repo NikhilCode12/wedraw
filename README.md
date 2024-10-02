@@ -1,6 +1,4 @@
-# ![WeDraw Logo](public/logo.svg)
-
-# WeDraw
+# ![WeDraw Logo](public/logo.svg) WeDraw
 
 **WeDraw** is a powerful real-time collaboration tool designed for teams and organizations. It allows users to create multiple organizations, authenticate securely with Clerk, and collaborate on a shared drawing board with intuitive tools and seamless real-time updates.
 
