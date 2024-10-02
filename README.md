@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ![WeDraw Logo](public/logo.svg)
 
-## Getting Started
+# WeDraw
 
-First, run the development server:
+**WeDraw** is a powerful real-time collaboration tool designed for teams and organizations. It allows users to create multiple organizations, authenticate securely with Clerk, and collaborate on a shared drawing board with intuitive tools and seamless real-time updates.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Multiple Organizations**: Users can create, join, and manage multiple organizations, each with separate workspaces.
+- **Clerk Authentication**: Secure authentication using Clerk, ensuring simple and robust user management.
+- **Real-Time Drawing**: Collaborate on a shared drawing board, where changes are reflected in real time for all participants.
+- **User-Friendly Drawing Tools**: Provides an array of drawing tools to make collaboration smooth and engaging.
+- **Organization Management**: Easily manage members within your organization, granting permissions and roles.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: Fast, scalable framework for React apps with server-side rendering.
+- **React**: Dynamic and responsive user interface creation.
+- **Clerk**: Authentication and user management made easy and secure.
+- **Socket.io**: Enables real-time updates and collaboration on the drawing board.
+- **Convex**: Serverless backend to handle data storage and synchronization in real time.
+- **Node.js**: Handles server-side logic and integration with real-time services.
